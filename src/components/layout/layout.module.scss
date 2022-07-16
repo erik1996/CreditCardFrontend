@@ -1,0 +1,52 @@
+@import '../../styles/variables';
+
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+.pageTitle {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 24px;
+}
+
+.container {
+    width: 100%;
+    flex: 5 1 0;
+    height: 100vh;
+}
+
+.content {
+    padding: 0 24px;
+}
+
+.navbar {
+    flex: 1 1 0;
+    height: 100vh;
+}
+
+.topHeader {
+    height: 72px;
+    background: $white;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    margin: 32px 0;
+}
+
+.addBtn {
+    width: 169px;
+    margin-left: auto;
+    margin-right: 12px;
+    height: 42px;
+    background: $white;
+    border: 1px solid $green;
+    border-radius: 8px;
+    color: $green;
+    font-size: 16px;
+    font-weight: 700;
+}

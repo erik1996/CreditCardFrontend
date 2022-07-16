@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.table {
+  width: 100%;
+  display: block;
+  background: $white;
+  padding: 16px;;
+  border-radius: 8px;
+
+}
+
+.tableHeeader {
+  display: flex;
+  height: 67px;
+  align-items: center;
+  background: $base-background-color;
+  padding: 0 8px;
+  border-radius: 8px;
+}
+
+.tableHeeaderColumn, .tableContentColumn {
+  width: 20%;
+}
+
+.tableHeeaderColumn {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tableContentColumn {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tableContent {
+  padding: 0 8px;
+  height: calc(100vh - 280px);
+  overflow-y: scroll;
+}
+
+.tableContentRow {
+  display: flex;
+  align-items: center;
+  height: 67px;
+}

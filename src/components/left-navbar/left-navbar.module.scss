@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+
+.leftNavbar {
+    background-color: $white;
+    height: 100vh;
+}
+
+.title {
+    color: $green;
+    font-size: 24px;
+    text-align: center;
+}
+
+.navbarContainer {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbarItem {
+    display: block;
+    padding: 12px;
+    width: 95%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: $green;
+    border: 1px solid $green;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.navbarItemActive {
+    background: $green;
+    color: $white;
+    border: 1px solid $green;
+}
